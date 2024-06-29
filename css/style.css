@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  background-image: url(../images/events-heavenly-header.jpeg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.homeOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(214, 46, 51, 0.6);
+}
+
+#LeftMenu {
+  height: 100%;
+
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a,
+.sidenav button {
+  padding: 20px 8px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: white;
+}
+
+.sidenav button {
+  border: none;
+  background-color: transparent;
+  width: fit-content;
+}
+
+.home-content h1 {
+  margin-top: 200px;
+  position: relative;
+
+  font-size: 300%;
+}
+
+.home-content h1,
+p {
+  text-align: center;
+
+  color: white;
+}
+
+.nav {
+  background-color: #414658;
+}
+
+.nav a:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+
+.nav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.home-content {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+.accordion {
+  background-color: #e68285;
+  color: white;
+  cursor: pointer;
+  padding: 0.625rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s linear;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: rgba(253, 213, 220, 0.795);
+  overflow: hidden;
+
+}
+
+.panel p {
+  color: black;
+}
+
+.durationB-GroundImg {
+  background-image: url(../images/invitation-2508607__340.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh;
+  font-size: 1rem;
+}
+
+.layer {
+  background-color: rgba(214, 46, 51, 0.6);
+  height: 100%;
+}
+
+#contact h6 {
+  font-size: 1.8rem;
+}
+
+.list-inline-item {
+  cursor: pointer;
+  border: 1px solid #222;
+  transition: all 400ms linear;
+}
+
+.list-inline-item:hover {
+  border: 1px solid rgba(214, 46, 51, 0.6);
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+
+  outline: 0;
+  box-shadow: 0 0 0 0.15rem rgb(126 0 0 / 25%);
+}
+
+.form__button {
+  display: block;
+  width: fit-content;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 0.9rem 2.3rem;
+  font-size: 1.2rem;
+  background-color: #D62E33;
+  text-decoration: none;
+  transition: all 500ms ease;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.form__button:hover {
+  background-color: rgb(82, 0, 0);
+  color: #fff;
+}
+
+#sendBtn {
+  width: fit-content;
+  margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#sidebar {
+
+  top: 0;
+  left: -190px;
+  bottom: 0;
+}
+
+#sidebar a,
+#sidebar i {
+  transition: all 0.2s linear;
+}
+
+#sidebar a:hover,
+#sidebar i:not(#sideBtn i):hover {
+  color: #831e20 !important;
+}
+
+#sidebar i {
+  cursor: pointer;
+}
+
+#sideBtn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  transform: translateX(200%);
+}
+
+#sideBtn i,
+#sideBtn span {
+  color: white;
+}
+
+#sidebar {
+  background-color: #111;
+}
